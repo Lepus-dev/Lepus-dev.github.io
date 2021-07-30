@@ -49,6 +49,12 @@
 
 @media(max-width:968px){
 
+    .banner-section__inner{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
     .tabs-wrapper{
         overflow-x: scroll;
         width: 1000px;
@@ -65,6 +71,14 @@
      
     .menu__list{
         display: none;
+    }
+
+    .user-list{
+        margin-right: 0;
+    }
+
+    .user-list__item{
+        padding-right: 20px;
     }
 
     .menu__btn{
@@ -114,10 +128,10 @@
         width: 600px;
 
     }
-    .breadcrumbs__inner{
+    /* .breadcrumbs__inner{
         overflow-x: scroll;
         height: 80px;
-    }
+    } */
 
     .search__tabs-item.tab-active{
         border-radius: 5px;
@@ -184,6 +198,38 @@
 }
 
 @media(max-width:640px){
+    .categories-page__item{
+        margin-bottom: 10px;
+    }
+
+    .product-item{
+        width: 200px;
+    }
+
+    .card-tab__item-info{
+        font-size: 15px;
+    }
+    .product-card__item{
+        font-size: 15px;
+    }
+
+    .product-card__item-left{
+        padding-right: 10px;
+        width: 150px;
+    }
+    
+    .product-card__item-right{
+        width: 150px;
+    }
+
+    .banner-section__slider{
+        max-width:100%;
+        margin-bottom: 50px;
+        
+    
+    
+    }
+
     .product__more{
         margin-top: 60px;
     }
@@ -237,6 +283,9 @@
     }    
 
 @media (max-width: 540px){
+    .product-item{
+        margin-right: 5px;
+    }
 
     .banner-section__slider-img{
         min-height: 164px;
@@ -259,8 +308,8 @@
     .footer__bottom-link{
         margin:12px 0;
         padding:20px;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 15px;
+        line-height: 20px;
     }
     .footer__bottom-inner{
         justify-content: start;
@@ -280,7 +329,7 @@
     }
     .footer__top-title.footer__topdrop{
         font-weight: 500;
-        font-size: 26px;
+        font-size: 18px;
         line-height: 20px;
         color: #000000;
         padding: 15px 0;
@@ -291,8 +340,8 @@
     
     .footer-list__item{
         padding-bottom: 20px;
-        font-size: 24px;
-        line-height: 26px;
+        font-size: 15px;
+        line-height: 20px;
 
     }
 
@@ -320,6 +369,10 @@
 
     .footer__topdrop--active::after{
         transform: rotate(180deg);
+    }
+
+    .footer__topdrop{
+        pointer-events: auto;
     }
 }
 

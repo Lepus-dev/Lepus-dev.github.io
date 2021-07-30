@@ -877,4 +877,91 @@ body{
     line-height: 26px;
 
 }
+
+.footer__topdrop{
+    pointer-events: none;
+}
 /* about-us__page */
+
+/* sales__page */
+
+.sales__inner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.product-item__sales{
+    margin-bottom: 40px;
+}
+
+.pagination{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.pagination-list{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-list__item{
+    padding: 6px 12px;
+    border: 2px solid transparent;
+    margin: 0 6px;
+    font-size:18px ;
+    line-height: 22px;
+}
+
+.pagination-list__item.active{
+    padding: 6px 12px;
+    border: 2px solid #1c62CD;
+    color: #1c62CD;
+}
+
+.pagination-list__item a{
+    display: block;
+}
+
+/* sales__page */
+
+/* registration__page */
+.registration__inner{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+
+.registration__title{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.registration__item{
+    margin-bottom: 20px;
+    background: #f0f0f4;
+    border-radius: 3px;
+    padding: 5px 20px;
+    border: none;
+    line-height: 24px;
+    font-size: 17px;
+    width: 100%;
+}
+
+.register__btn{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #fff;
+    background: #1c62CD;
+    border-radius: 3px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+/* registration__page */

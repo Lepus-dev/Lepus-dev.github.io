@@ -22,18 +22,24 @@
     <div class="container">
       <div class="header__inner">
         <nav class="menu">
+          <button class="menu__btn">
+            <div class="menu__btn-line"></div>
+            <div class="menu__btn-line"></div>
+            <div class="menu__btn-line"></div>
+
+          </button>
           <ul class="menu__list">
             <span>
               <li class="menu__item"><a href="index.html" class="menu__link"> Вітрина</a></li>
             </span>
             <span>
-              <li class="menu__item"><a href="#" class="menu__link">Каталог</a> </li>
+              <li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a> </li>
             </span>
             <span>
-              <li class="menu__item"><a href="#" class="menu__link">Акції</a> </li>
+              <li class="menu__item"><a href="sales.html" class="menu__link">Акції</a> </li>
             </span>
             <span>
-              <li class="menu__item"><a href="#" class="menu__link">Оплата і Доставка</a> </li>
+              <li class="menu__item"><a href="Payment-delivery.html" class="menu__link">Оплата і Доставка</a> </li>
             </span>
           </ul>
         </nav>
@@ -43,7 +49,7 @@
               <a class="user-list__link heart" href="#"><i class="far fa-heart"></i></a>
             </li>
             <li class="user-list__item">
-              <a class="user-list__link profile" href="#"><i class="fas fa-user-alt"></i></a>
+              <a class="user-list__link profile" href="registration.html"><i class="fas fa-user-alt"></i></a>
             </li>
             <li class="user-list__item">
               <a class="user-list__link basket" href="#"><i class="fas fa-shopping-basket"></i>
@@ -52,10 +58,79 @@
             </li>
           </ul>
         </div>
+        
 
       </div>
-
+    
     </div>
+    <ul class="menu-mobile__list">
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="index.html">
+          <i class="fas menu-mobile__img fa-store-alt"></i>
+          <span>Вітрина</span>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link"  href="catalog.html" class="menu__link">
+          <i class="fas menu-mobile__img fa-list"></i>
+          <span>Каталог</span> 
+        </a> 
+      </li>
+
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="sales.html">
+          <i class="fas menu-mobile__img fa-percent"></i>
+          <span>Акції</span>
+        </a>
+      </li>
+
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="Payment-delivery.html">
+          <i class="far menu-mobile__img fa-credit-card"></i>
+          <span>Оплата і доставка</span>
+        </a>
+      </li>
+      
+      <li class="menu-mobile__item">
+        
+        <a class="menu-mobile__link" href="">
+          <i class="far menu-mobile__img fa-heart"></i>
+          <span>Список бажань</span>
+        </a>
+      </li>
+      
+      <li class="menu-mobile__item">
+        
+        <a class="menu-mobile__link" href="">
+          <i class="fas menu-mobile__img fa-shopping-basket"></i>
+          <span>Корзина</span>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="sign-in.html">
+          <i class="fas menu-mobile__img fa-user-alt"></i>
+          <span>Войти</span>
+        </a>
+      </li>
+
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="registration.html">
+          <i class="fas menu-mobile__img fa-user-alt"></i>
+          <span>Авторизація</span>
+        </a>
+      </li>
+
+      
+
+
+
+    </ul>
   </header>
   <main>
     <div class="breadcrumbs">
@@ -299,23 +374,23 @@
       <div class="footer__top">
         <div class="footer__top-inner">
           <div class="footer__top-item">
-            <h6 class="footer__top-title">Інформація</h6>
+            <h6 class="footer__top-title footer__topdrop">Інформація</h6>
             <ul class="footer-list">
-              <li class="footer-list__item"><a href="#">Про нас</a> </li>
+              <li class="footer-list__item"><a href="about-us.html">Про нас</a> </li>
               <li class="footer-list__item"><a href="#">Умови сайту</a> </li>
               <li class="footer-list__item"><a href="#">Акції</a> </li>
             </ul>
           </div>
           <div class="footer__top-item">
-            <h6 class="footer__top-title">Інтернет магазин</h6>
+            <h6 class="footer__top-title footer__topdrop">Інтернет магазин</h6>
             <ul class="footer-list">
-              <li class="footer-list__item"><a href="#">Вітрина</a> </li>
-              <li class="footer-list__item"><a href="#">Повернення і обмін</a> </li>
-              <li class="footer-list__item"><a href="#">Доставка і оплата</a> </li>
+              <li class="footer-list__item"><a href="index.html">Вітрина</a> </li>
+              <li class="footer-list__item"><a href="Return-exchange.html">Повернення і обмін</a> </li>
+              <li class="footer-list__item"><a href="Payment-delivery.html">Доставка і оплата</a> </li>
             </ul>
           </div>
           <div class="footer__top-item">
-            <h6 class="footer__top-title"> Контакти</h6>
+            <h6 class="footer__top-title footer__topdrop"> Контакти</h6>
             <ul class="footer-list">
               <li class="footer-list__contact"><i class="fab fa-viber"></i><span>+380966302411</span></li>
               <li class="footer-list__contact"><i class="fab fa-whatsapp"></i><span>+380966302411</span></li>
