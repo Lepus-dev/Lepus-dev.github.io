@@ -217,6 +217,7 @@
         margin-bottom: 10px;
     }
 
+<<<<<<< HEAD
     .product-item{
         min-height: 200px;
     }
@@ -236,6 +237,9 @@
     /* .product-item-sale{
         width: 150px;
     } */
+=======
+
+>>>>>>> 19f84c6ec52a2e7ea436ed0412f02be87709e5ef
 
     .card-tab__item-info{
         font-size: 15px;
