@@ -81,6 +81,7 @@ body{
     background-color: #fff;
     display: none;
     height: 100%;
+    top: 100px;
 }
 
 .menu-mobile__item{

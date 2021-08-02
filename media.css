@@ -217,7 +217,6 @@
         margin-bottom: 10px;
     }
 
-<<<<<<< HEAD
     .product-item{
         min-height: 200px;
     }
@@ -237,9 +236,6 @@
     /* .product-item-sale{
         width: 150px;
     } */
-=======
-
->>>>>>> 19f84c6ec52a2e7ea436ed0412f02be87709e5ef
 
     .card-tab__item-info{
         font-size: 15px;
@@ -409,10 +405,84 @@
     .footer__topdrop{
         pointer-events: auto;
     }
+    .delivery-info__item-top h4 {
+        padding-bottom: 10px;
+        font-size: 19px;
+    }
+    .delivery-info__item-bottom {
+        font-size: 16px;
+        padding: 10px 10px 0px;
+        border-bottom: 1px solid rgba(47, 48, 53, 0.1);
+    }
+    .delivery__title h3 {
+        font-size: 24px;
+        margin-bottom: 5px;
+        line-height: 24px;
+    }
+    .delivery-info__item-top h5 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .delivery-info__item-bottom-town {
+        border-bottom: 1px solid rgba(47, 48, 53, 0.1);
+        padding: 7px 10px 3px;
+        font-size: 15px;
+    }
+    .delivery-info__item-bottom {
+        font-size: 16px;
+        padding: 20px 10px 1px;
+        border-bottom: 1px solid rgba(47, 48, 53, 0.1);
+    }
+    .about-us__content-text {
+        padding-bottom: 7px;
+        font-size: 16px;
+        line-height: 20px;
+    }    
+    
+    
 }
 
 
 @media (max-width: 440px){
+    .footer-list__contact {
+        padding-bottom: 20px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .product__more-link {
+        line-height: 13px;
+        letter-spacing: 0.1em;
+        font-size: 13px;
+ 
+    }    
+    .product__title {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    h4.categories__item-title {
+        font-size: 18px;
+    }
+    .categories__title {
+        text-align: center;
+        font-size: 18px;
+    }
+    .search__content-btn{
+        font-size: 11px;
+    }
+    .search__tabs-item {
+        padding: 11px 26px 12px;
+        font-weight: 500;
+        font-size: 15px;
+    }    
+
+    .search__content-input {
+
+        line-height: 19px;
+        font-size: 13px;
+ 
+    }    
     .banner-section__slider-img{
         min-height: 164px;
         max-width: 100%;
