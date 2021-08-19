@@ -1,0 +1,40 @@
+
+/* registration__page */
+.registration__inner{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+
+.registration__title{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.registration__item{
+    margin-bottom: 20px;
+    background: #f0f0f4;
+    border-radius: 3px;
+    padding: 5px 20px;
+    border: none;
+    line-height: 24px;
+    font-size: 17px;
+    width: 100%;
+}
+
+.register__btn{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #fff;
+    background: #1c62CD;
+    border-radius: 3px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+/* registration__page */

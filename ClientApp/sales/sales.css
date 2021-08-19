@@ -1,0 +1,42 @@
+/* sales__page */
+
+.sales__inner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.product-item__sales{
+    margin-bottom: 40px;
+}
+
+.pagination{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.pagination-list{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-list__item{
+    padding: 6px 12px;
+    border: 2px solid transparent;
+    margin: 0 6px;
+    font-size:18px ;
+    line-height: 22px;
+}
+
+.pagination-list__item.active{
+    padding: 6px 12px;
+    border: 2px solid #1c62CD;
+    color: #1c62CD;
+}
+
+.pagination-list__item a{
+    display: block;
+}
+
+/* sales__page */

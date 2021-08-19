@@ -1,0 +1,31 @@
+/* Categories-page */
+.categories-page__title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 32px;
+    margin-bottom:50px;
+    text-align: center;
+
+}
+
+.categories-page__item{
+    margin-bottom: 50px;
+    border: 1px solid #dbdada;
+    border-radius: 3px;
+    width: 370px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    transition-duration:all 0.3s;
+}
+
+.categories-page__item:hover .categories__item-title{
+    color: #1c62CD;
+  
+}
+
+.categories-page__item:hover{
+    box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+}
+
+/* Categories-page */

@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AMASALE</title>
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../product-page.css">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <nav class="menu">
+          <button class="menu__btn">
+            <div class="menu__btn-line"></div>
+            <div class="menu__btn-line"></div>
+            <div class="menu__btn-line"></div>
+
+          </button>
+          <ul class="menu__list">
+            <span>
+              <li class="menu__item"><a href="../main-page/index.html" class="menu__link"> Вітрина</a></li>
+            </span>
+            <span>
+              <li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a> </li>
+            </span>
+            <span>
+              <li class="menu__item"><a href="sales.html" class="menu__link">Акції</a> </li>
+            </span>
+            <span>
+              <li class="menu__item"><a href="Payment-delivery.html" class="menu__link">Оплата і Доставка</a> </li>
+            </span>
+          </ul>
+        </nav>
+        <div class="header__user-box">
+          <ul class="user-list">
+            <li class="user-list__item">
+              <a class="user-list__link heart" href="#"><i class="far fa-heart"></i></a>
+            </li>
+            <li class="user-list__item">
+              <a class="user-list__link profile" href="registration.html"><i class="fas fa-user-alt"></i></a>
+            </li>
+            <li class="user-list__item">
+              <a class="user-list__link basket" href="#"><i class="fas fa-shopping-basket"></i>
+                <p class="basket__num">0</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+
+      </div>
+    
+    </div>
+    <ul class="menu-mobile__list">
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="index.html">
+          <i class="fas menu-mobile__img fa-store-alt"></i>
+          <span>Вітрина</span>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link"  href="catalog.html" class="menu__link">
+          <i class="fas menu-mobile__img fa-list"></i>
+          <span>Каталог</span> 
+        </a> 
+      </li>
+
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="sales.html">
+          <i class="fas menu-mobile__img fa-percent"></i>
+          <span>Акції</span>
+        </a>
+      </li>
+
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="Payment-delivery.html">
+          <i class="far menu-mobile__img fa-credit-card"></i>
+          <span>Оплата і доставка</span>
+        </a>
+      </li>
+      
+      <li class="menu-mobile__item">
+        
+        <a class="menu-mobile__link" href="">
+          <i class="far menu-mobile__img fa-heart"></i>
+          <span>Список бажань</span>
+        </a>
+      </li>
+      
+      <li class="menu-mobile__item">
+        
+        <a class="menu-mobile__link" href="">
+          <i class="fas menu-mobile__img fa-shopping-basket"></i>
+          <span>Корзина</span>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="sign-in.html">
+          <i class="fas menu-mobile__img fa-user-alt"></i>
+          <span>Войти</span>
+        </a>
+      </li>
+
+      <li class="menu-mobile__item">
+
+        <a class="menu-mobile__link" href="registration.html">
+          <i class="fas menu-mobile__img fa-user-alt"></i>
+          <span>Авторизація</span>
+        </a>
+      </li>
+
+      
+
+
+
+    </ul>
+  </header>
+
+
+  <section class="banner-section">
+    <div class="container">
+      <div class="banner-section__inner">
+        <div class="banner-section__slider">
+          <div class="banner-section__slider-item">
+            <img class="banner-section__slider-img"  src="../images/2007231.jpg" alt="">
+          </div>
+          <div class="banner-section__slider-item">
+            <img class="banner-section__slider-img" src="../images/2007231.jpg" alt="">
+          </div>
+          <div class="banner-section__slider-item">
+            <img class="banner-section__slider-img" src="../images/2007231.jpg" alt="">
+          </div>
+          <div class="banner-section__slider-item">
+            <img class="banner-section__slider-img" src="../images/2007231.jpg" alt="">
+          </div>
+          <div class="banner-section__slider-item">
+            <img class="banner-section__slider-img" src="../images/2007231.jpg" alt="">
+          </div>
+          <div class="banner-section__slider-item">
+            <img class="banner-section__slider-img" src="../images/2007231.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="search">
+    <div class="container">
+      <div class="search__inner">
+        <div class="search__tabs tabs-wrapper">
+      
+
+            <a class="tab search__tabs-item tab-active" href="#tab-1">Пошук по назві товару</a>
+            <a class="tab search__tabs-item" href="#tab-2">Пошук по виробнику</a>
+ 
+
+        </div>
+        <div class="search__content">
+          <div id="tab-1" class=" tabs-content search__content-item tabs-content--active ">
+            <form class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Введіть назву товара">
+              <button class="search__content-btn" type="submit">Шукати</button>
+            </form>
+          </div>
+          <div id="tab-2" class=" tabs-content search__content-item">
+            <form class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Введіть марку товара">
+              <button class="search__content-btn" type="submit">Шукати</button>
+            </form>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <section class="categories page-section">
+    <div class="container">
+      <div class="categories__title">
+        <h3>Популярні категорії</h3>
+
+      </div>
+      <div class="categories__inner">
+
+        <a href="" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Пневматика і спорядження</h4>
+
+          </div>
+          <div class="categories__item-img">
+            <img src="../images/catalog-images/1510399649_w150_h150_pnevmatika-i-sporyadzhennya.jpg" alt="">
+
+          </div>
+
+        </a>
+        <a href="" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Компресори/блоки/головки</h4>
+
+          </div>
+          <div class="categories__item-img">
+            <img src="../images/catalog-images/1957832869_w150_h150_kompresoriblokigolovki.jpg" alt="">
+          </div>
+        </a>
+        <a href="" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Техніка для кухні</h4>
+
+          </div>
+          <div class="categories__item-img">
+            <img src="../images/catalog-images/3122188776_w150_h150_myasorubki.jpg" alt="">
+          </div>
+
+        </a>
+        <a href="" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Меблі</h4>
+
+          </div>
+          <div class="categories__item-img">
+            <img src="../images/catalog-images/mebli.jpg" alt="">
+
+          </div>
+
+        </a>
+        <a href="" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Побутова техніка</h4>
+
+          </div>
+          <div class="categories__item-img">
+            <img src="../images/catalog-images/pobutova-tehnika.png" alt="">
+          </div>
+        </a>
+        <a href="" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Насоси/мотопомпи</h4>
+
+          </div>
+          <div class="categories__item-img">
+            <img src="../images/catalog-images/nasosimotopompi.jpg" alt="">
+          </div>
+
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <div class="products__inner">
+        <div class="product__title">
+          <h3>Популярні товари</h3>
+        </div>
+        <div class="products__content">
+          <div class="product-slider">
+            <div class="product-slider__item">
+              <div class="product-item__wrapper ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="product-page.html" class="product-item product-item-sale">
+                  <div class="product-item__img"><img src="" alt=""> </div>
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper  ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="product-page.html" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper  ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="product-page.html" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper  ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper product-item__not-available ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper product-item__not-available ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="product__more">
+
+          <a href="#" class="product__more-link">Показати ще</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products">
+
+    <div class="container">
+      <div class="products__inner">
+        <div class="product__title">
+          <h3>Товари із подарунком</h3>
+        </div>
+        <div class="products__content">
+          <div class="product-slider">
+            <div class="product-slider__item">
+              <div class="product-item__wrapper ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <div class="product-item__img"><img src="" alt=""> </div>
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper  ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper  ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper  ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper product-item__not-available ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+            <div class="product-slider__item">
+              <div class="product-item__wrapper product-item__not-available ">
+                <button class="product-item__basket"><i class="fas fa-shopping-basket"></i></button>
+                <button class="product-item__favourite"><i class="far fa-heart"></i></button>
+                <a href="#" class="product-item__notify-link">
+                  <span>Повідомити про наявність</span>
+                </a>
+                <a href="#" class="product-item product-item-sale">
+                  <img class="product-item__img" src="" alt="">
+                  <p class="product-item__hover-text">Подивитися товар</p>
+                  <h4 class="product-item__title">Прибор ночного видения,
+                    насадка PARD NV007
+                  </h4>
+                  <p class="product-item__price">
+                    18 500 грн
+                  </p>
+                  <p class="product-item__notify">
+                    Немає в наявності
+                  </p>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="product__more">
+
+          <a href="#" class="product__more-link">Показати ще</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__top-inner">
+          <div class="footer__top-item">
+            <h6 class="footer__top-title footer__topdrop">Інформація</h6>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="about-us.html">Про нас</a> </li>
+              <li class="footer-list__item"><a href="#">Умови сайту</a> </li>
+              <li class="footer-list__item"><a href="#">Акції</a> </li>
+            </ul>
+          </div>
+          <div class="footer__top-item">
+            <h6 class="footer__top-title footer__topdrop">Інтернет магазин</h6>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="index.html">Вітрина</a> </li>
+              <li class="footer-list__item"><a href="Return-exchange.html">Повернення і обмін</a> </li>
+              <li class="footer-list__item"><a href="Payment-delivery.html">Доставка і оплата</a> </li>
+            </ul>
+          </div>
+          <div class="footer__top-item">
+            <h6 class="footer__top-title footer__topdrop"> Контакти</h6>
+            <ul class="footer-list">
+              <li class="footer-list__contact"><i class="fab fa-viber"></i><span>+380966302411</span></li>
+              <li class="footer-list__contact"><i class="fab fa-whatsapp"></i><span>+380966302411</span></li>
+              <li class="footer-list__contact"><i class="far fa-envelope"></i><span>antonkichuk20@gmail.com</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="footer__bottom">
+        <a class="footer__bottom-link" href="#">Договір оферти</a>
+        <a class="footer__bottom-link" href="#">Документація</a>
+
+      </div>
+
+    </div>
+
+
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="../js/slick.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
+<!-- <div class="tabs-wrapper">
+  <div class="tabs">
+    <div class="tab">
+      <a class="tab tab-active" href="#"></a>
+    </div>
+    <div class="tabs-container">
+      <div class="tabs-content"></div>
+    </div> -->
